@@ -6,7 +6,8 @@
 		"prepare": "lefthook install",
 		"format": "pnpm biome format --write ./",
 		"lint": "pnpm biome lint ./",
-		"check": "pnpm biome check --write ./"
+		"check": "pnpm biome check --write ./",
+		"dev": "pnpm --filter=frontend dev"
 	},
 	"keywords": [],
 	"author": "",
